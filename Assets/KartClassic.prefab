@@ -348,7 +348,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 750
+  MaxStep: 600
   nextKart: {fileID: 0}
 --- !u!114 &1249391568
 MonoBehaviour:
@@ -386,7 +386,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 57765d5085652c74c9137faf10540d41, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: f9dc9c3b263afe24c8ddb10716c677e2, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: Basic

@@ -1,0 +1,77 @@
+{
+    "target_leader_speed": {
+        "lesson_num": 0
+    },
+    "target_follower_distance": {
+        "lesson_num": 0
+    },
+    "target_follower_speed": {
+        "lesson_num": 0
+    },
+    "turn_punishment_factor": {
+        "lesson_num": 0
+    },
+    "leader_speed_punishment_factor": {
+        "lesson_num": 0
+    },
+    "leader_centering_punishment_factor": {
+        "lesson_num": 0
+    },
+    "leader_alignment_punishment_factor": {
+        "lesson_num": 0
+    },
+    "follower_angle_punishment_factor": {
+        "lesson_num": 0
+    },
+    "follower_distance_punishment_factor": {
+        "lesson_num": 0
+    },
+    "follower_speed_punishment_factor": {
+        "lesson_num": 0
+    },
+    "Basic": {
+        "checkpoints": [
+            {
+                "steps": 267068,
+                "file_path": "results\\B03\\Basic\\Basic-267068.onnx",
+                "reward": null,
+                "creation_time": 1670016989.1841133,
+                "auxillary_file_paths": [
+                    "results\\B03\\Basic\\Basic-267068.pt"
+                ]
+            },
+            {
+                "steps": 499999,
+                "file_path": "results\\B03\\Basic\\Basic-499999.onnx",
+                "reward": null,
+                "creation_time": 1670017996.869412,
+                "auxillary_file_paths": [
+                    "results\\B03\\Basic\\Basic-499999.pt"
+                ]
+            },
+            {
+                "steps": 631424,
+                "file_path": "results\\B03\\Basic\\Basic-631424.onnx",
+                "reward": null,
+                "creation_time": 1670018523.5823643,
+                "auxillary_file_paths": [
+                    "results\\B03\\Basic\\Basic-631424.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 631424,
+            "file_path": "results\\B03\\Basic.onnx",
+            "reward": null,
+            "creation_time": 1670018523.5823643,
+            "auxillary_file_paths": [
+                "results\\B03\\Basic\\Basic-631424.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

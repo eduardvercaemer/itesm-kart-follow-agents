@@ -1,0 +1,36 @@
+behaviors:
+  Basic:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 32
+      buffer_size: 256
+      learning_rate: 0.0003
+      beta: 0.005
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+      learning_rate_schedule: linear
+    network_settings:
+      normalize: true
+      hidden_units: 30
+      num_layers: 3
+      vis_encode_type: simple
+    reward_signals:
+      extrinsic:
+        gamma: 0.9
+        strength: 1.0
+    keep_checkpoints: 5000
+    max_steps: 1000000
+    time_horizon: 3
+    summary_freq: 4000
+environment_parameters:
+  target_leader_speed: 5.0
+  target_follower_distance: 5.0
+  target_follower_speed: 7.0
+  turn_punishment_factor: 0.01
+  leader_speed_punishment_factor: 20.0
+  leader_centering_punishment_factor: 15.0
+  leader_alignment_punishment_factor: 20.0
+  follower_angle_punishment_factor: 10.0
+  follower_distance_punishment_factor: 10.0
+  follower_speed_punishment_factor: 1.0
