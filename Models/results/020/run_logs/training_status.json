@@ -1,0 +1,44 @@
+{
+    "target_leader_speed": {
+        "lesson_num": 0
+    },
+    "turn_punishment_factor": {
+        "lesson_num": 0
+    },
+    "leader_speed_punishment_factor": {
+        "lesson_num": 0
+    },
+    "leader_centering_punishment_factor": {
+        "lesson_num": 0
+    },
+    "leader_alignment_punishment_factor": {
+        "lesson_num": 0
+    },
+    "Basic": {
+        "checkpoints": [
+            {
+                "steps": 15521,
+                "file_path": "results\\020\\Basic\\Basic-15521.onnx",
+                "reward": -657.0830795168877,
+                "creation_time": 1669999851.519388,
+                "auxillary_file_paths": [
+                    "results\\020\\Basic\\Basic-15521.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15521,
+            "file_path": "results\\020\\Basic.onnx",
+            "reward": -657.0830795168877,
+            "creation_time": 1669999851.519388,
+            "auxillary_file_paths": [
+                "results\\020\\Basic\\Basic-15521.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

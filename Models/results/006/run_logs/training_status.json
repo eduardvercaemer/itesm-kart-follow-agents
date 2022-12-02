@@ -1,0 +1,50 @@
+{
+    "speed_factor": {
+        "lesson_num": 0
+    },
+    "distance_factor": {
+        "lesson_num": 0
+    },
+    "raycast_factor": {
+        "lesson_num": 0
+    },
+    "angle_factor": {
+        "lesson_num": 0
+    },
+    "turn_factor": {
+        "lesson_num": 0
+    },
+    "desired_speed": {
+        "lesson_num": 0
+    },
+    "desired_distance": {
+        "lesson_num": 0
+    },
+    "Basic": {
+        "checkpoints": [
+            {
+                "steps": 167350,
+                "file_path": "results\\006\\Basic\\Basic-167350.onnx",
+                "reward": null,
+                "creation_time": 1669680809.2347276,
+                "auxillary_file_paths": [
+                    "results\\006\\Basic\\Basic-167350.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 167350,
+            "file_path": "results\\006\\Basic.onnx",
+            "reward": null,
+            "creation_time": 1669680809.2347276,
+            "auxillary_file_paths": [
+                "results\\006\\Basic\\Basic-167350.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "desired_speed": {
+        "lesson_num": 0
+    },
+    "Basic": {
+        "checkpoints": [
+            {
+                "steps": 233225,
+                "file_path": "results\\015\\Basic\\Basic-233225.onnx",
+                "reward": null,
+                "creation_time": 1669940689.2149963,
+                "auxillary_file_paths": [
+                    "results\\015\\Basic\\Basic-233225.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 233225,
+            "file_path": "results\\015\\Basic.onnx",
+            "reward": null,
+            "creation_time": 1669940689.2149963,
+            "auxillary_file_paths": [
+                "results\\015\\Basic\\Basic-233225.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
