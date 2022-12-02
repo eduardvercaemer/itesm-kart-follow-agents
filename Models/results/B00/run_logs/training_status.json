@@ -1,0 +1,59 @@
+{
+    "target_leader_speed": {
+        "lesson_num": 0
+    },
+    "target_follower_distance": {
+        "lesson_num": 0
+    },
+    "target_follower_speed": {
+        "lesson_num": 0
+    },
+    "turn_punishment_factor": {
+        "lesson_num": 0
+    },
+    "leader_speed_punishment_factor": {
+        "lesson_num": 0
+    },
+    "leader_centering_punishment_factor": {
+        "lesson_num": 0
+    },
+    "leader_alignment_punishment_factor": {
+        "lesson_num": 0
+    },
+    "follower_angle_punishment_factor": {
+        "lesson_num": 0
+    },
+    "follower_distance_punishment_factor": {
+        "lesson_num": 0
+    },
+    "follower_speed_punishment_factor": {
+        "lesson_num": 0
+    },
+    "Basic": {
+        "checkpoints": [
+            {
+                "steps": 31688,
+                "file_path": "results\\B00\\Basic\\Basic-31688.onnx",
+                "reward": null,
+                "creation_time": 1670003485.6259406,
+                "auxillary_file_paths": [
+                    "results\\B00\\Basic\\Basic-31688.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 31688,
+            "file_path": "results\\B00\\Basic.onnx",
+            "reward": null,
+            "creation_time": 1670003485.6259406,
+            "auxillary_file_paths": [
+                "results\\B00\\Basic\\Basic-31688.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
